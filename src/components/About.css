@@ -1,0 +1,41 @@
+.about {
+    background: var(--white-color);
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 40px;
+}
+
+.about-img img {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.about-text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+    color: var(--text-color-light);
+}
+
+.personal-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.info-item {
+    display: flex;
+    gap: 10px;
+}
+
+.info-title {
+    font-weight: 600;
+    color: var(--dark-color);
+}

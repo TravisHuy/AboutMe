@@ -1,0 +1,145 @@
+/* ===== SKILLS SECTION ===== */
+#skills {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.skills-content {
+    margin-top: 50px;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.skill-column {
+    flex: 1;
+    min-width: 280px;
+}
+
+.skill-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.skill-title::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background-color: #0E8AF1;
+    left: 0;
+    bottom: 0;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.skill-item {
+    width: 100%;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    font-weight: 500;
+    color: #333;
+}
+
+.skill-percentage {
+    font-weight: 500;
+    color: #0E8AF1;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.skill-level {
+    height: 100%;
+    background-color: #0E8AF1;
+    border-radius: 10px;
+    position: relative;
+    width: 0;
+    transition: width 1.5s cubic-bezier(0.1, 0.45, 0.1, 1);
+}
+
+.skill-level-text {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+/* Animation for skill bars */
+@keyframes progressAnimation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: var(--skill-percent);
+    }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .skills-row {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .skill-column {
+        width: 100%;
+    }
+    
+    .skill-title {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+    }
+    
+    .skill-title::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 576px) {
+    #skills {
+        padding: 60px 0;
+    }
+    
+    .skill-title {
+        font-size: 1.3rem;
+    }
+    
+    .skills-list {
+        gap: 20px;
+    }
+} 
