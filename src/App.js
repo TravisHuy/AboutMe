@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { MapPin } from 'lucide-react';
-import { PDFDownloadButton } from './ResumePDF';
+
 
 function App() {
   return (
