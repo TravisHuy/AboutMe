@@ -39,7 +39,7 @@ function App() {
             </div>
             <div className="highlight-content">
               <div>TOEIC Certificate</div>
-              <a href="https://example.com/toeic-certificate">Score: 600</a>
+              <p style={{ color: '#1e88e5', margin: 0 }}>Score: 600</p>
             </div>
           </div>
         </div>
