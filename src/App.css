@@ -284,3 +284,74 @@ body {
   font-size: 14px;
   color: #6b7280;
 }
+
+
+/* Floating button styles */
+.float-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: auto;
+  height: auto;
+  padding: 12px 20px;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.float-button:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.float-button svg {
+  margin-right: 8px;
+}
+
+.float-button-text {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@media print {
+  .float-button {
+    display: none;
+  }
+
+  .profile-image {
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    margin: 0 auto !important;
+  }
+  
+  .profile-image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+
+  .pdf-work-logo {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .pdf-education-logo {
+    width: 60px !important;
+    height: 60px !important;
+    object-fit: contain !important;
+  }
+}

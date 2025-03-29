@@ -12,7 +12,7 @@ function App() {
         {/* Profile Card */}
         <div className="card profile-card">
           <div className="profile-image">
-            <img src="/assets/avatar.png" alt="Profile" />
+            <img src="/assets/travishuy.jpg" alt="Profile" />
           </div>
           <h1 className="profile-name">Ho Nhat Huy</h1>
           <div className="profile-location">
@@ -39,7 +39,7 @@ function App() {
             </div>
             <div className="highlight-content">
               <div>TOEIC Certificate</div>
-              <p style={{ color: '#1e88e5', margin: 0 }}>Score: 600</p>
+              <p style={{ color: '#1e88e5', margin: 0 }}>Score: 450</p>
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@ function App() {
 
             <div className="work-content">
               <div className="work-header">
-                <span className="work-position">InApps Technology</span>
+                <span className="work-position">NextGen</span>
                 <span className="work-period">(February 2024 - January 2025)</span>
               </div>
 
