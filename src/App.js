@@ -38,8 +38,7 @@ function App() {
               <img src="/assets/toeic.png" alt="Certificate" />
             </div>
             <div className="highlight-content">
-              <div>TOEIC Certificate</div>
-              <p style={{ color: '#1e88e5', margin: 0 }}>Score: 450</p>
+              <a href='https://firebasestorage.googleapis.com/v0/b/gas24h7d.appspot.com/o/certificate_english.jpg?alt=media&token=8124677f-166a-468e-a895-26b4c06d705b'>Certificate in Conversational English</a>
             </div>
           </div>
         </div>
@@ -47,15 +46,8 @@ function App() {
         {/* About Me */}
         <div className="card">
           <p className="about-text">
-            As a junior Android developer, I have hands-on experience with various moible technologies, focusing on delivering Android
-            solutions using Java, Kotlin. I have worked on developing user interfaces, creating responsive mobile apps, and
-            integrating RESTful APIs. My experience includes using Android frameworks like Jetpack componenets (including ViewModel, LiveData, Room) and managing state
-            with tools such as RecyclerView and Fragments. I am proficient with Git for version control and have collaborated
-            effectively with teams using project management tools like JIRA and Trello.
-          </p>
-          <p className="about-text">
-            I am a fast learner, passionate about web development, and always eager to take on new challenges to
-            expand my skill set. I thrive in team environments and am committed to delivering high-quality work.
+            I’m a Junior Android Developer with 1.5 years of experience in Android development. I enjoy building robust and scalable applications, solving development challenges, and optimising performance. 
+            I continuously learn new technologies and best practices to enhance my skills and deliver high-quality applications
           </p>
         </div>
 
@@ -88,9 +80,9 @@ function App() {
             </div>
 
         </div>
-
+{/* 
         <div className="work-item">
-          <div className="work-logo" style={{ backgroundColor: '#8A2BE2' }}>
+          <div className="work-logo" style={{ backgroundColor: '#8A2BE2' }}>  
             <img src="/assets/logo_congty.png" alt="Company" />
           </div>
 
@@ -108,7 +100,7 @@ function App() {
               <li>Conduct testing and debugging to ensure robust application performance</li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Projects */}
@@ -217,97 +209,6 @@ function App() {
           </a>
           <p className="project-description">
             TicTacToe is a classic tic-tac-toe game built with Jetpack Compose, offering both two-player mode and AI mode for playing against the computer.
-          </p>
-        </div>
-
-
-        {/* Muadee by HDbank */}
-        <div className="project-item">
-          <div className="project-header">
-            <h3 className="project-title">Muadee by HDbank</h3>
-            <div className="project-tags">
-              <div className="project-tag">ReactJS</div>
-              <div className="project-tag">Tailwind CSS</div>
-              <div className="project-tag">Deploy to Vercel</div>
-            </div>
-          </div>
-          <div className="project-description">
-            <p>Shopee</p>
-            <a href="https://d3dxi7t02b61aw.cloudfront.net/shopeefood-khao-ban-70k-qua-the-tra-gop-muadee" className="project-link">
-              https://d3dxi7t02b61aw.cloudfront.net/shopeefood-khao-ban-70k-qua-the-tra-gop-muadee
-            </a>
-          </div>
-          <div className="project-description">
-            <p>Traveloka</p>
-            <a href="https://d3dxi7t02b61aw.cloudfront.net/di-muon-noi-voi-traveloka-giam-150k-qua-muadee" className="project-link">
-              https://d3dxi7t02b61aw.cloudfront.net/di-muon-noi-voi-traveloka-giam-150k-qua-muadee
-            </a>
-          </div>
-          <div className="project-description">
-            <p>Lazada</p>
-            <a href="https://d3dxi7t02b61aw.cloudfront.net/luot-lazada-tha-ga-giam-200k-qua-the-tra-gop-muadee" className="project-link">
-              https://d3dxi7t02b61aw.cloudfront.net/luot-lazada-tha-ga-giam-200k-qua-the-tra-gop-muadee
-            </a>
-          </div>
-          <div className="project-description">
-            <p>ApplePay</p>
-            <a href="https://www.muadee.com.vn/thanh-toan-voi-apple-pay" className="project-link">
-              https://www.muadee.com.vn/thanh-toan-voi-apple-pay
-            </a>
-          </div>
-          <div className="project-description">
-            <p>Muadee</p>
-            <a href="https://www.muadee.com.vn/tra-gop-muadee-trung-iphone-16-pro-max" className="project-link">
-              https://www.muadee.com.vn/tra-gop-muadee-trung-iphone-16-pro-max
-            </a>
-          </div>
-          <div className="project-description">
-            <a href="https://www.muadee.com.vn/giam-500k-thoai-mai-mua-sam-qua-the-tra-gop-muadee" className="project-link">
-              https://www.muadee.com.vn/giam-500k-thoai-mai-mua-sam-qua-the-tra-gop-muadee
-            </a>
-          </div>
-          <div className="project-description">
-            <p>ZaloPay</p>
-            <a href="https://www.muadee.com.vn/giam-den-100k-tren-zalopay-voi-the-tra-gop-muadee" className="project-link">
-              https://www.muadee.com.vn/giam-den-100k-tren-zalopay-voi-the-tra-gop-muadee
-            </a>
-          </div>
-        </div>
-
-        {/* Simea */}
-        <div className="project-item">
-          <div className="project-header">
-            <h3 className="project-title">Simea</h3>
-            <div className="project-tags">
-              <div className="project-tag">ReactJS</div>
-              <div className="project-tag">Tailwind CSS</div>
-              <div className="project-tag">Deploy to Vercel</div>
-            </div>
-          </div>
-          <a href="https://www.simea.vn" className="project-link">
-            https://www.simea.vn
-          </a>
-          <p className="project-description">
-            The coffee shop interface aims to provide a smooth user experience, helping customers easily explore
-            the menu.
-          </p>
-        </div>
-
-        {/* Verinlayer */}
-        <div className="project-item">
-          <div className="project-header">
-            <h3 className="project-title">Verinlayer</h3>
-            <div className="project-tags">
-              <div className="project-tag">ReactJS</div>
-              <div className="project-tag">Tailwind CSS</div>
-              <div className="project-tag">Deploy to Vercel</div>
-            </div>
-          </div>
-          <a href="https://layer-verin-ui.vercel.app" className="project-link">
-            https://layer-verin-ui.vercel.app
-          </a>
-          <p className="project-description">
-            Make UI
           </p>
         </div>
 
