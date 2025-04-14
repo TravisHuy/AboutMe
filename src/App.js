@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="bg-gray-100 min-h-screen">
       <div className="container">
-       
+
 
         {/* Profile Card */}
         <div className="card profile-card">
@@ -46,8 +46,13 @@ function App() {
         {/* About Me */}
         <div className="card">
           <p className="about-text">
-            I’m a Junior Android Developer with 1.5 years of experience in Android development. I enjoy building robust and scalable applications, solving development challenges, and optimising performance. 
-            I continuously learn new technologies and best practices to enhance my skills and deliver high-quality applications
+            I’m a Junior Android Developer with 1.5 years of experience in Android Development.
+
+          </p>
+          <p className="about-text">
+            With a strong focus on UI/UX, I enjoy tackling Android development challenges and
+            optimizing user experiences. I continuously learn new technologies and best practices to
+            improve my skills and build better applications.
           </p>
         </div>
 
@@ -79,8 +84,8 @@ function App() {
               </ul>
             </div>
 
-        </div>
-{/* 
+          </div>
+          {/* 
         <div className="work-item">
           <div className="work-logo" style={{ backgroundColor: '#8A2BE2' }}>  
             <img src="/assets/logo_congty.png" alt="Company" />
@@ -101,139 +106,164 @@ function App() {
             </ul>
           </div>
         </div> */}
-      </div>
-
-      {/* Projects */}
-      <div className="card">
-        <h2 className="section-title">Projects</h2>
-
-
-        {/* Gas24h7 */}
-        <div className="project-item">
-          <div className="project-header">
-            <h3 className="project-title">Gas24h7</h3>
-            <div className="project-tags">
-              <div className="project-tag">Kotlin</div>
-              <div className="project-tag">Jetpack Compose</div>
-              <div className="project-tag">Dagger2</div>
-              <div className="project-tag">Retrofit</div>
-              <div className="project-tag">Firebase</div>
-              <div className="project-tag">MVP</div>
-            </div>
-          </div>
-          <a href="https://github.com/TravisHuy/Gas24h_7App" className="project-link">
-            https://github.com/TravisHuy/Gas24h_7App
-          </a>
-          <p className="project-description">
-            Gas24h7 is a 24/7 gas ordering app that allows users to browse products, place orders, and track deliveries in real-time.
-          </p>
         </div>
 
+        {/* Projects */}
+        <div className="card">
+          <h2 className="section-title">Projects</h2>
 
-        {/* Customer Management */}
-        <div className="project-item">
-          <div className="project-header">
-            <h3 className="project-title">Customer Management</h3>
-            <div className="project-tags">
-              <div className="project-tag">Kotlin</div>
-              <div className="project-tag">Room</div>
-              <div className="project-tag">MVVM</div>
+          {/* RestauManager*/}
+          <div className="project-item">
+            <div className="project-header">
+              <h3 className="project-title">RestauManager</h3>
+              <div className="project-tags">
+                <div className="project-tag">Kotlin</div>
+                <div className="project-tag">MVVM</div>
+                <div className="project-tag">Dagger2</div>
+                <div className="project-tag">Retrofit</div>
+                <div className="project-tag">Coroutines</div>
+                <div className="project-tag">Google Maps SDK</div>
+                <div className="project-tag">Google Ads</div>
+              </div>
             </div>
-          </div>
-          <a href="https://github.com/TravisHuy/CustomerManagermentApp" className="project-link">
-            https://github.com/TravisHuy/CustomerManagermentApp
-          </a>
-          <p className="project-description">
-            A customer management app that enables appointment scheduling and transaction note tracking, built with MVVM and Room for efficient data handling            </p>
-        </div>
-
-        {/* TravisHuyProgressBar */}
-        <div className="project-item">
-          <div className="project-header">
-            <h3 className="project-title">TravisHuyProgressBar</h3>
-            <div className="project-tags">
-              <div className="project-tag">Kotlin</div>
-              <div className="project-tag">Java</div>
-              <div className="project-tag">Deploy to JitPack</div>
-            </div>
-          </div>
-          <div className="project-description">
-            <p>GitHub</p>
-            <a href="https://github.com/TravisHuy/TravisHuyProgressBar" className="project-link">
-              https://github.com/TravisHuy/TravisHuyProgressBar
+            <a href="https://github.com/TravisHuy/Restaurant_Manager_App" className="project-link">
+              https://github.com/TravisHuy/Restaurant_Manager_App
             </a>
+            <p className="project-description">
+              A mobile app designed to streamline table reservations, order management, and customer service for restaurant owners and staff
+            </p>
           </div>
-          <div className="project-description">
-            <p>JitPack</p>
-            <a href="https://jitpack.io/#TravisHuy/TravisHuyProgressBar" className="project-link">
-              https://jitpack.io/#TravisHuy/TravisHuyProgressBar
+
+
+
+
+
+          {/* Gas24h7 */}
+          <div className="project-item">
+            <div className="project-header">
+              <h3 className="project-title">Gas24h7</h3>
+              <div className="project-tags">
+                <div className="project-tag">Kotlin</div>
+                <div className="project-tag">Jetpack Compose</div>
+                <div className="project-tag">Dagger2</div>
+                <div className="project-tag">Retrofit</div>
+                <div className="project-tag">Firebase</div>
+                <div className="project-tag">MVP</div>
+              </div>
+            </div>
+            <a href="https://github.com/TravisHuy/Gas24h_7App" className="project-link">
+              https://github.com/TravisHuy/Gas24h_7App
             </a>
+            <p className="project-description">
+              Gas24h7 is a 24/7 gas ordering app that allows users to browse products, place orders, and track deliveries in real-time.
+            </p>
           </div>
-          <p className="project-description">
-            TravisHuyProgressBar is a customizable progress bar with gradient effects, designed to visually represent completion status.
-            It can be used to display voucher usage progress, loading indicators, or any application requiring visualized progress tracking.
-          </p>
+
+
+          {/* Customer Management */}
+          <div className="project-item">
+            <div className="project-header">
+              <h3 className="project-title">Customer Management</h3>
+              <div className="project-tags">
+                <div className="project-tag">Kotlin</div>
+                <div className="project-tag">Room</div>
+                <div className="project-tag">MVVM</div>
+              </div>
+            </div>
+            <a href="https://github.com/TravisHuy/CustomerManagermentApp" className="project-link">
+              https://github.com/TravisHuy/CustomerManagermentApp
+            </a>
+            <p className="project-description">
+              A customer management app that enables appointment scheduling and transaction note tracking, built with MVVM and Room for efficient data handling            </p>
+          </div>
+
+          {/* TravisHuyProgressBar */}
+          <div className="project-item">
+            <div className="project-header">
+              <h3 className="project-title">TravisHuyProgressBar</h3>
+              <div className="project-tags">
+                <div className="project-tag">Kotlin</div>
+                <div className="project-tag">Java</div>
+                <div className="project-tag">Deploy to JitPack</div>
+              </div>
+            </div>
+            <div className="project-description">
+              <p>GitHub</p>
+              <a href="https://github.com/TravisHuy/TravisHuyProgressBar" className="project-link">
+                https://github.com/TravisHuy/TravisHuyProgressBar
+              </a>
+            </div>
+            <div className="project-description">
+              <p>JitPack</p>
+              <a href="https://jitpack.io/#TravisHuy/TravisHuyProgressBar" className="project-link">
+                https://jitpack.io/#TravisHuy/TravisHuyProgressBar
+              </a>
+            </div>
+            <p className="project-description">
+              TravisHuyProgressBar is a customizable progress bar with gradient effects, designed to visually represent completion status.
+              It can be used to display voucher usage progress, loading indicators, or any application requiring visualized progress tracking.
+            </p>
+          </div>
+
+
+          {/* CircleRecyclerview */}
+          <div className="project-item">
+            <div className="project-header">
+              <h3 className="project-title">CircleRecyclerview</h3>
+              <div className="project-tags">
+                <div className="project-tag">Kotlin</div>
+                <div className="project-tag">Java</div>
+                <div className="project-tag">Deploy to JitPack</div>
+              </div>
+            </div>
+            <a href="https://github.com/TravisHuy/CircleRecyclerview" className="project-link">
+              https://github.com/TravisHuy/CircleRecyclerview
+            </a>
+            <p className="project-description">
+              CircleRecyclerView is a library that enables circular list display, offering a smoother and more visually appealing experience than traditional RecyclerView.
+              It is ideal for applications that display lists in a circular layout, such as menus, product carousels, or other creative UI designs.
+            </p>
+          </div>
+
+          {/* TicTacToe */}
+          <div className="project-item">
+            <div className="project-header">
+              <h3 className="project-title">TicTacToe</h3>
+              <div className="project-tags">
+                <div className="project-tag">Kotlin</div>
+                <div className="project-tag">Jetpack Compose</div>
+              </div>
+            </div>
+            <a href="https://github.com/TravisHuy/TicTacToe" className="project-link">
+              https://github.com/TravisHuy/TicTacToe
+            </a>
+            <p className="project-description">
+              TicTacToe is a classic tic-tac-toe game built with Jetpack Compose, offering both two-player mode and AI mode for playing against the computer.
+            </p>
+          </div>
+
         </div>
 
+        {/* Education */}
+        <div className="card">
+          <h2 className="section-title">Education</h2>
+          <h3 className="subsection-title">Credentials</h3>
 
-        {/* CircleRecyclerview */}
-        <div className="project-item">
-          <div className="project-header">
-            <h3 className="project-title">CircleRecyclerview</h3>
-            <div className="project-tags">
-              <div className="project-tag">Kotlin</div>
-              <div className="project-tag">Java</div>
-              <div className="project-tag">Deploy to JitPack</div>
+          {/* University */}
+          <div className="education-item">
+            <div className="education-logo">
+              <img src="/assets/logo_nlu.png" alt="University" />
+            </div>
+            <div className="education-details">
+              <div className="education-school">Ho Chi Minh City University of Agriculture and Forestry</div>
+              <div className="education-degree">Engineer degree in Software Engineering</div>
+              <div className="education-period">4.5 years program • Completed May 2024</div>
             </div>
           </div>
-          <a href="https://github.com/TravisHuy/CircleRecyclerview" className="project-link">
-            https://github.com/TravisHuy/CircleRecyclerview
-          </a>
-          <p className="project-description">
-            CircleRecyclerView is a library that enables circular list display, offering a smoother and more visually appealing experience than traditional RecyclerView.
-            It is ideal for applications that display lists in a circular layout, such as menus, product carousels, or other creative UI designs.
-          </p>
-        </div>
 
-        {/* TicTacToe */}
-        <div className="project-item">
-          <div className="project-header">
-            <h3 className="project-title">TicTacToe</h3>
-            <div className="project-tags">
-              <div className="project-tag">Kotlin</div>
-              <div className="project-tag">Jetpack Compose</div>
-            </div>
-          </div>
-          <a href="https://github.com/TravisHuy/TicTacToe" className="project-link">
-            https://github.com/TravisHuy/TicTacToe
-          </a>
-          <p className="project-description">
-            TicTacToe is a classic tic-tac-toe game built with Jetpack Compose, offering both two-player mode and AI mode for playing against the computer.
-          </p>
-        </div>
 
+        </div>
       </div>
-
-      {/* Education */}
-      <div className="card">
-        <h2 className="section-title">Education</h2>
-        <h3 className="subsection-title">Credentials</h3>
-
-        {/* University */}
-        <div className="education-item">
-          <div className="education-logo">
-            <img src="/assets/logo_nlu.png" alt="University" />
-          </div>
-          <div className="education-details">
-            <div className="education-school">Ho Chi Minh City University of Agriculture and Forestry</div>
-            <div className="education-degree">Engineer degree in Software Engineering</div>
-            <div className="education-period">4.5 years program • Completed May 2024</div>
-          </div>
-        </div>
-
-
-      </div>
-    </div>
     </div >
   );
 }
